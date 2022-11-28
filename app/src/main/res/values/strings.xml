@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">ShootersSense</string>
+    <string name="action_inicio">Inicio</string>
+    <string name="btn_Iniciar_Sesion">Iniciar Sesión</string>
+    <string name="btn_Registrar">Registrar</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="action_settings">Ajustes</string>
 </resources>

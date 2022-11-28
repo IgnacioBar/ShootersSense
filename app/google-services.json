@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "252325973855",
+    "project_id": "shooterssense-master",
+    "storage_bucket": "shooterssense-master.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:252325973855:android:800ceeb9a6f5b5152830ea",
+        "android_client_info": {
+          "package_name": "com.example.shooterssense"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "252325973855-7rbhkh67qtqr8qu2akuvq8mp6cqkn4nu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfNu9z0kZqBZ1NpPCP8lil3vxMRF60wbo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "252325973855-7rbhkh67qtqr8qu2akuvq8mp6cqkn4nu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
