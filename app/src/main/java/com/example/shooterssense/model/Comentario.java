@@ -4,7 +4,7 @@ public class Comentario {
     private String comment;
     private String publisher;
 
-    //TERMINADO
+    //TERMINADO-REVISADO
 
     public Comentario() {
     }

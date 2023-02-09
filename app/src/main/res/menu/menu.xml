@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view" >
+
+    <group android:checkableBehavior="single">
+    <item
+        android:id="@+id/op1"
+        android:title="Siguiendo"
+        android:icon="@drawable/ic_amigos">
+    </item>
+
+    <item
+        android:id="@+id/op2"
+        android:title="Publicar Post"
+        android:icon="@drawable/ic_post">
+    </item>
+
+    <item
+        android:id="@+id/op3"
+        android:title="Todos los post"
+        android:icon="@drawable/ic_todo_post">
+    </item>
+
+    <item
+        android:id="@+id/op4"
+        android:title="Amigos"
+        android:icon="@drawable/ic_amigos">
+    </item>
+
+    <item
+        android:id="@+id/op5"
+        android:title="Comunidad"
+        android:icon="@drawable/ic_comunidad">
+    </item>
+
+    <item
+        android:id="@+id/op6"
+        android:title="Editar Perfil"
+        android:icon="@drawable/ic_perfil">
+    </item>
+
+    <item
+        android:id="@+id/op7"
+        android:title="Cerrar Sesión"
+        android:icon="@drawable/ic_cerrar_sesion">
+    </item>
+
+    </group>
+</menu>

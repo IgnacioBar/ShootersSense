@@ -21,7 +21,7 @@ import com.google.firebase.database.FirebaseDatabase;
 import java.util.HashMap;
 
 public class RegisterActivity extends AppCompatActivity {
-
+    //TERMINADO-REVISADO
     EditText etNombreR;
     EditText etUsuarioR;
     EditText etEmailR;
@@ -59,11 +59,11 @@ public class RegisterActivity extends AppCompatActivity {
         String sPassword = etPassR.getText().toString().trim();
 
         if (sFullname.isEmpty() || sUsername.isEmpty() || sEmail.isEmpty() || sPassword.isEmpty()) {
-            Toast.makeText(this, "Debes llenar todos los campos", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Debes rellenar todos los campos", Toast.LENGTH_SHORT).show();
             pd.dismiss();
 
-        } else if (sPassword.length() < 6) {
-            Toast.makeText(this, "La contraseña debe tener al menos 6 caracteres", Toast.LENGTH_SHORT).show();
+        } else if (sPassword.length() < 8) {
+            Toast.makeText(this, "La contraseña debe tener al menos 8 caracteres", Toast.LENGTH_SHORT).show();
 
         } else {
             registrarUsuario(sFullname, sUsername, sEmail, sPassword);
@@ -113,10 +113,4 @@ public class RegisterActivity extends AppCompatActivity {
         Intent i = new Intent(this, LoginActivity.class);
         startActivity(i);
     }
-
-    public void irMain(View view) {
-        Intent i = new Intent(this, MainActivity.class);
-        startActivity(i);
-    }
-
 }

@@ -23,7 +23,7 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
 public class LoginActivity extends AppCompatActivity {
-
+    //TERMINADO-REVISADO
     EditText etMailL;
     EditText etPassL;
     FirebaseAuth auth;
@@ -84,17 +84,6 @@ public class LoginActivity extends AppCompatActivity {
 
 
     }
-
-    public void irSignup(View view) {
-        Intent i = new Intent(this, RegisterActivity.class);
-        startActivity(i);
-    }
-
-    public void irMain(View view) {
-        Intent i = new Intent(this, MainActivity.class);
-        startActivity(i);
-    }
-
     @Override
     protected void onStart() {
         super.onStart();
@@ -104,4 +93,11 @@ public class LoginActivity extends AppCompatActivity {
             startActivity(new Intent(this, MainActivity.class));
         }
     }
+
+    public void irSignup(View view) {
+        Intent i = new Intent(this, RegisterActivity.class);
+        startActivity(i);
+    }
+
+
 }

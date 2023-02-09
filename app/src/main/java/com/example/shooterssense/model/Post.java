@@ -9,20 +9,18 @@ public class Post implements Parcelable {
     private String descripcion;
     private String imageUrl;
     private String publisher;
-    private String fecha;
 
-    //TERMINADO
+    //TERMINADO-REVISADO
 
     public Post() {
     }
 
-    public Post(String id, String titulo, String descripcion, String imageUrl, String publisher, String fecha) {
+    public Post(String id, String titulo, String descripcion, String imageUrl, String publisher) {
         this.id = id;
         this.titulo = titulo;
         this.descripcion = descripcion;
         this.imageUrl = imageUrl;
         this.publisher = publisher;
-        this.fecha = fecha;
     }
 
     protected Post(Parcel in) {
@@ -31,7 +29,6 @@ public class Post implements Parcelable {
         descripcion = in.readString();
         imageUrl = in.readString();
         publisher = in.readString();
-        fecha = in.readString();
     }
 
     public static final Creator<Post> CREATOR = new Creator<Post>() {
@@ -86,14 +83,6 @@ public class Post implements Parcelable {
         this.publisher = publisher;
     }
 
-    public String getFecha() {
-        return fecha;
-    }
-
-    public void setFecha(String fecha) {
-        this.fecha = fecha;
-    }
-
     @Override
     public String toString() {
         return "Post{" +
@@ -117,7 +106,6 @@ public class Post implements Parcelable {
         dest.writeString(descripcion);
         dest.writeString(imageUrl);
         dest.writeString(publisher);
-        dest.writeString(fecha);
     }
 }
 

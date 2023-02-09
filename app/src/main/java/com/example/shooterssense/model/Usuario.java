@@ -10,7 +10,7 @@ public class Usuario implements Parcelable {
     private String fotoPerfilUrl;
     private String bio;
 
-    //TERMINADO
+    //TERMINADO-REVISADO
 
     public Usuario() {
     }
